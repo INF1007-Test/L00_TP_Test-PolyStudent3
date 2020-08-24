@@ -2,6 +2,7 @@ name: Pylint
 
 on:
   repository_dispatch:
+    branches: remise
   workflow_dispatch:
 jobs:
   run:
